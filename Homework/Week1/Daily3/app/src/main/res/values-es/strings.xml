@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daily-3</string>
+    <string name="Name">Jose Caballero</string>
+    <string name="Location">Guadalajara, Mexico</string>
+    <string name="Education">Ingeniero en Softwarer</string>
+    <string name="Hobbies">Peliculas, series, video juegos, ejercitar, bla bla</string>
+</resources>

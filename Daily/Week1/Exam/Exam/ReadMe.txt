@@ -1,0 +1,1 @@
+This is made in .Net Core 2.0
