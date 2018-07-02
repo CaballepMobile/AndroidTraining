@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/actThumbUp"
+        android:icon="@drawable/ic_thumb_up_black_24dp"
+        android:iconTint="@color/colorWhite"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itPlaySound"
+        android:icon="@drawable/ic_audiotrack_black_24dp"
+        android:title="Play Sound"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/itMore"
+        android:icon="@drawable/ic_folder_black_24dp"
+        android:title="More"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/itCoolActivity"
+                android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+                android:title="Cool Activity">
+
+            </item>
+            <item
+                android:id="@+id/itNothing"
+                android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+                android:title="Nothing">
+
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>
