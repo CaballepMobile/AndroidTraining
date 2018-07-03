@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <group android:checkableBehavior="single">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@mipmap/ic_launcher_round"
-            android:title="Camera" />
+            android:id="@+id/itProfile"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Profile" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/levi"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/png1"
-            android:title="Slideshows" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@mipmap/ic_launcher_round"
-            android:title="Tools" />
+            android:id="@+id/itSettings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
     </group>
 </menu>
